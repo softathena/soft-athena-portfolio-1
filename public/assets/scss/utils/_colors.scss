@@ -1,0 +1,48 @@
+$colors: (
+  common: ("white": #ffffff,
+    "black": #000000,
+    "placeholder": #8F98A3,
+    "selection": #1B1E20,
+  ),
+  body: ("primary": #101315,
+    "secondary": #ffffff,
+  ),
+  theme: ("primary": #2BB9A0, // Soft Teal
+    "secondary": #1E8C78, // Deep Teal
+  ),
+  text: ("body": #B7BDC4,
+    "primary": #ffffff,
+    "secondary": #8F98A3,
+    "tertiary": #D3D7DB,
+    "grey": #A0A6AD,
+    "lightest": #ECEEEF,
+    "light-grey": #D2D5D8,
+  ),
+  bg: ("primary": #101315,
+    "secondary": #181C1F,
+    "tertiary": #1E2226,
+    "quaternary": #23272C,
+  ),
+  border: ("primary": rgba(255, 255, 255, .08),
+    "secondary": #2A2E32,
+    "tertiary": #3A4046,
+  ),
+  gradient: ("1": linear-gradient(135deg, #2BB9A0 0%, #4FC3F7 100%),
+    "2": linear-gradient(135deg, #1E8C78 0%, #2BB9A0 100%),
+    "3": linear-gradient(160deg, #2BB9A0 5%, #4FC3F7 95%),
+  ),
+  rgba: ("1": rgba(43, 185, 160, 0.10),
+    "2": rgba(79, 195, 247, 0.20),
+    "3": rgba(255, 255, 255, 0.7),
+    "4": rgba(79, 195, 247, 0.8),
+    "5": rgba(43, 185, 160, 0.7),
+  ),
+);
+
+// optional
+$white: #ffffff;
+$black: #000000;
+$theme-primary: #2BB9A0;
+$border-secondary: #1E8C78;
+$border-tertiary: #4FC3F7;
+$border-quaternary: #2BB9A0;
