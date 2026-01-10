@@ -1,16 +1,37 @@
+<<<<<<< HEAD
+=======
+import { StaticImageData } from "next/image";
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 import bgImage1 from "../../public/assets/imgs/bg/banner-bg-03.png";
 import bgImage2 from "../../public/assets/imgs/bg/banner-bg-04.png";
 import bgImage3 from "../../public/assets/imgs/bg/banner-bg-05.png";
 import bgImage4 from "../../public/assets/imgs/bg/banner-bg-06.png";
+<<<<<<< HEAD
 import { TBanner } from "@/interFace/type";
+=======
+
+type TBanner = {
+  id: number;
+  bannerBg: StaticImageData;
+  title: string;
+  subTitle: string;
+  desc: string;
+  videoId: string;
+};
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 
 const banner_data: TBanner[] = [
   // Enhanced descriptions for more impact
   {
     id: 1,
     bannerBg: bgImage1,
+<<<<<<< HEAD
     title: "Grow Your Business With",
     subTitle: "Innovative Ideas.",
+=======
+    title: "Web Development",
+    subTitle: "Made Simple",
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
     desc: "Soft Athena specializes in creating custom websites designed to meet the unique needs of your business. From responsive designs to seamless user experiences, we focus on delivering solutions that enhance your online presence and help you stand out in a competitive digital landscape.",
     videoId: "8w6XpAGIh-U",
   },

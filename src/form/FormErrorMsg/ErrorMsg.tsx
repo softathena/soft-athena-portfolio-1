@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { FieldError, FieldErrorsImpl, Merge } from "react-hook-form";
 
@@ -21,3 +22,16 @@ const ErrorMsg: React.FC<ErrorMsgProps> = ({ error }) => {
 };
 
 export default ErrorMsg;
+=======
+import React from 'react';
+
+const ErrorMsg = ({ error }: any) => {
+    return (
+        <>
+            <p style={{ color: 'red', fontSize: "12px", position: 'absolute' }}>{error}</p>
+        </>
+    );
+};
+
+export default ErrorMsg;
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d

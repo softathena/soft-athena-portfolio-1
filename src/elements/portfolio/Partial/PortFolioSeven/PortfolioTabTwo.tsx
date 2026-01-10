@@ -4,13 +4,27 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 import Image from 'next/image';
 import portfolio_data from '@/data/portfolio-data';
 import Link from 'next/link';
+<<<<<<< HEAD
 import PhotoPopupAnimation from '@/hooks/photo-popup-animation';
+=======
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 
 const PortfolioTabTwo = () => {
     return (
         <>
             <div className="row g-5">
+<<<<<<< HEAD
             <PhotoPopupAnimation>
+=======
+                <PhotoProvider
+                    speed={() => 800}
+                    easing={(type) =>
+                        type === 2
+                            ? "cubic-bezier(0.36, 0, 0.66, -0.56)"
+                            : "cubic-bezier(0.34, 1.56, 0.64, 1)"
+                    }
+                >
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
                     {
                         portfolio_data.slice(8, 10).map((item) => (
                             <div className="col-lg-4 col-md-6 grid-item" key={item.id}>
@@ -30,10 +44,17 @@ const PortfolioTabTwo = () => {
                                     <div className="portfolio__item-content">
                                         <div className="portfolio__item-info">
                                             <div className="portfolio__tag">
+<<<<<<< HEAD
                                                 <Link href={`/works/works-details/${item.id}`}>{item.tagName}</Link>
                                             </div>
                                             <h5 className="portfolio__item-title underline"><Link
                                                 href={`/works/works-details/${item.id}`}>{item.title}</Link></h5>
+=======
+                                                <Link href={`/portfolio/portfolio-details/${item.id}`}>{item.tagName}</Link>
+                                            </div>
+                                            <h5 className="portfolio__item-title underline"><Link
+                                                href={`/portfolio/portfolio-details/${item.id}`}>{item.title}</Link></h5>
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
                                         </div>
                                     </div>
                                 </div>
@@ -41,7 +62,11 @@ const PortfolioTabTwo = () => {
                         ))
                     }
 
+<<<<<<< HEAD
                 </PhotoPopupAnimation>
+=======
+                </PhotoProvider>
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
             </div>
         </>
     );

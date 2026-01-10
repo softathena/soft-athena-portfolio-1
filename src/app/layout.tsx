@@ -1,10 +1,19 @@
+<<<<<<< HEAD
+=======
+"use client"
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 import "./globals.css";
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
 import "../style/index.scss";
 import AppProvider from "@/contextApi/AppProvider";
+<<<<<<< HEAD
 import { Toaster } from "sonner";
+=======
+import { ToastContainer } from "react-toastify";
+
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 
 export default function RootLayout({
   children,
@@ -28,7 +37,22 @@ export default function RootLayout({
         <body suppressHydrationWarning={true}>
           <AppProvider>
             {children}
+<<<<<<< HEAD
             <Toaster  position="top-center" richColors />
+=======
+            <ToastContainer
+              position="top-left"
+              autoClose={2000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="light"
+            />
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
           </AppProvider>
         </body>
       </html>

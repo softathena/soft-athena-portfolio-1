@@ -1,10 +1,27 @@
+<<<<<<< HEAD
+=======
+import { StaticImageData } from 'next/image';
+//testimonial element style one, four and seven img
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 import clientImgOne from '../../public/assets/imgs/user/user-02.png';
 import clientImgTwo from '../../public/assets/imgs/user/user-01.png';
 import clientImgThree from '../../public/assets/imgs/user/user-08.png';
 import clientImgFour from '../../public/assets/imgs/user/user-09.png';
 import clientImgFive from '../../public/assets/imgs/user/user-10.png';
+<<<<<<< HEAD
 import { TTestimonial } from '@/interFace/type';
 
+=======
+
+type TTestimonial = {
+    id: number;
+    rating?: number;
+    description: string;
+    image: StaticImageData;
+    userName: string;
+    designation: string
+}
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 const testimonial_data: TTestimonial[] = [
 //testimonial data
 {

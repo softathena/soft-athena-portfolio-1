@@ -8,6 +8,7 @@ import image27 from '../../public/assets/imgs/portfolio/masonary/portfolio-mason
 import image28 from '../../public/assets/imgs/portfolio/masonary/portfolio-masonary-21.png';
 import image29 from '../../public/assets/imgs/portfolio/masonary/portfolio-masonary-22.png';
 import image30 from '../../public/assets/imgs/portfolio/masonary/portfolio-masonary-23.png';
+<<<<<<< HEAD
 import { TPortfolio } from '@/interFace/type';
 
 const portfolio_data:TPortfolio[] = [
@@ -218,10 +219,125 @@ const portfolio_data:TPortfolio[] = [
       clientFeedback: "A user-friendly solution for our HR team.",
       link: "https://hrmsystem.com",
       date:"May 26, 2022"
+=======
+
+
+import { TPortfolio } from '@/interFace/type';
+
+const portfolio_data: TPortfolio[] = [
+
+    {
+        id: 1,
+        image: image23,
+        tagName: "Development",
+        title: "Discuss the Outcomes",
+    },
+    {
+        id: 2,
+        image: image24,
+        tagName: "Creative",
+        title: "Creative Idea",
+    },
+    {
+        id: 3,
+        image: image25,
+        tagName: "Digital Art",
+        title: "Digital Art Beauty",
+    },
+    {
+        id: 4,
+        image: image26,
+        tagName: "Branding",
+        title: "Logo With Branding",
+    },
+    {
+        id: 5,
+        image: image27,
+        tagName: "Development",
+        title: "Discuss the Outcomes",
+    },
+    {
+        id: 6,
+        image: image28,
+        tagName: "Digital Art",
+        title: "Digital Art Beauty",
+    },
+    {
+        id: 7,
+        image: image29,
+        tagName: "Development",
+        title: "Discuss the Outcomes",
+    },
+    {
+        id: 8,
+        image: image30,
+        tagName: "Creative",
+        title: "Creative Idea",
+    },
+    //tab-two-data
+    {
+        id: 9,
+        image: image25,
+        tagName: "Digital Art",
+        title: "Digital Art Beauty",
+    },
+    {
+        id: 10,
+        image: image28,
+        tagName: "Digital Art",
+        title: "Digital Art Beauty",
+    },
+    //tab-three-data
+    {
+        id: 11,
+        image: image24,
+        tagName: "Creative",
+        title: "Creative Idea",
+    },
+    {
+        id: 12,
+        image: image30,
+        tagName: "Development",
+        title: "Discuss the Outcomes",
+    },
+    {
+        id: 13,
+        image: image29,
+        tagName: "Development",
+        title: "Discuss the Outcomes",
+    },
+
+    //tab-four-data
+    {
+        id: 14,
+        image: image24,
+        tagName: "Creative",
+        title: "Creative Idea",
+    },
+    {
+        id: 15,
+        image: image30,
+        tagName: "Creative",
+        title: "Creative Idea",
+    },
+    {
+        id: 16,
+        image: image28,
+        tagName: "Digital Art",
+        title: "Digital Art Beauty",
+    },
+    //tab-five-data
+    {
+        id: 17,
+        image: image27,
+        tagName: "Development",
+        title: "Discuss the Outcomes",
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
     },
     {
         id: 18,
         image: image26,
+<<<<<<< HEAD
         tagName: "React Templates",
         title: "Blog Template for Writers",
         description: "Developed a React-based blog template with customizable layouts and SEO-friendly architecture.",
@@ -236,3 +352,11 @@ const portfolio_data:TPortfolio[] = [
   export default portfolio_data;
   
   
+=======
+        tagName: "Branding",
+        title: "Logo With Branding",
+    },
+]
+
+export default portfolio_data;
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d

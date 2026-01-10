@@ -1,17 +1,35 @@
 'use client'
 import React from 'react';
+<<<<<<< HEAD
 import { PhotoView } from 'react-photo-view';
+=======
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import Image from 'next/image';
 import portfolio_data from '@/data/portfolio-data';
 import Link from 'next/link';
+<<<<<<< HEAD
 import PhotoPopupAnimation from '@/hooks/photo-popup-animation';
+=======
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 
 const PortfolioTabThree = () => {
     return (
         <>
             <div className="row  g-5">
+<<<<<<< HEAD
                 <PhotoPopupAnimation>
+=======
+                <PhotoProvider
+                    speed={() => 800}
+                    easing={(type) =>
+                        type === 2
+                            ? "cubic-bezier(0.36, 0, 0.66, -0.56)"
+                            : "cubic-bezier(0.34, 1.56, 0.64, 1)"
+                    }
+                >
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
                     <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
                         <Masonry gutter='30px'>
                             {
@@ -33,10 +51,17 @@ const PortfolioTabThree = () => {
                                             <div className="portfolio__item-content">
                                                 <div className="portfolio__item-info">
                                                     <div className="portfolio__tag">
+<<<<<<< HEAD
                                                         <Link href={`/works/works-details/${item.id}`}>{item.tagName}</Link>
                                                     </div>
                                                     <h5 className="portfolio__item-title underline"><Link
                                                         href={`/works/works-details/${item.id}`}>{item.title}</Link></h5>
+=======
+                                                        <Link href={`/portfolio/portfolio-details/${item.id}`}>{item.tagName}</Link>
+                                                    </div>
+                                                    <h5 className="portfolio__item-title underline"><Link
+                                                        href={`/portfolio/portfolio-details/${item.id}`}>{item.title}</Link></h5>
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
                                                 </div>
                                             </div>
                                         </div>
@@ -66,10 +91,17 @@ const PortfolioTabThree = () => {
                                             <div className="portfolio__item-content">
                                                 <div className="portfolio__item-info">
                                                     <div className="portfolio__tag">
+<<<<<<< HEAD
                                                         <Link href={`/works/works-details/${item.id}`}>{item.tagName}</Link>
                                                     </div>
                                                     <h5 className="portfolio__item-title underline"><Link
                                                         href={`/works/works-details/${item.id}`}>{item.title}</Link></h5>
+=======
+                                                        <Link href={`/portfolio/portfolio-details/${item.id}`}>{item.tagName}</Link>
+                                                    </div>
+                                                    <h5 className="portfolio__item-title underline"><Link
+                                                        href={`/portfolio/portfolio-details/${item.id}`}>{item.title}</Link></h5>
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
                                                 </div>
                                             </div>
                                         </div>
@@ -78,7 +110,11 @@ const PortfolioTabThree = () => {
                             }
                         </Masonry>
                     </ResponsiveMasonry>
+<<<<<<< HEAD
                 </PhotoPopupAnimation>
+=======
+                </PhotoProvider>
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
             </div>
         </>
     );

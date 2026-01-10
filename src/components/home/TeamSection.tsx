@@ -73,7 +73,11 @@ const TeamSection = () => {
                         data-wow-delay={item.wowDelay}
                       >
                         <div className="team__thumb bg-solid">
+<<<<<<< HEAD
                           <Link href={`/teams/team-details/${item.id}`}>
+=======
+                          <Link href={`/team/team-details/${item.id}`}>
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
                             <Image
                               src={item.image}
                               loader={imageLoader}
@@ -105,7 +109,11 @@ const TeamSection = () => {
                         </div>
                         <div className="team__content">
                           <h6 className="team__title">
+<<<<<<< HEAD
                             <Link href={`/teams/team-details/${item.id}`}>
+=======
+                            <Link href={`/team/team-details/${item.id}`}>
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
                               {item.authorName}
                             </Link>
                           </h6>

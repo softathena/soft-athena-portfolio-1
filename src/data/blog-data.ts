@@ -9,6 +9,11 @@ import userTwo from '../../public/assets/imgs/user/user-08.png';
 import userThree from '../../public/assets/imgs/user/user-09.png';
 import { TBlog } from '@/interFace/type';
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 const blog_data: TBlog[] = [
     {
         id: 1,

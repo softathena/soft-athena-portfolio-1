@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import TanzilMia from "../../public/assets/imgs/team/team-05.png";
 import ShagorAli from "../../public/assets/imgs/team/team-06.png";
 // skill image
@@ -10,11 +11,23 @@ import { TTeam } from "@/interFace/type";
 
 const team_data: TTeam[] = [
   // Team data
+=======
+//Element style two img
+import TanzilMia from "../../public/assets/imgs/team/team-05.png";
+import ShagorAli from "../../public/assets/imgs/team/team-06.png";
+import Istiak from "../../public/assets/imgs/team/team-07.png";
+
+import { TTeam } from "@/interFace/type";
+
+const team_data: TTeam[] = [
+  //Team data
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
   {
     id: 1,
     image: TanzilMia,
     authorName: "Md Tanzil Mia",
     desination: "Founder & CEO",
+<<<<<<< HEAD
     expart:"MERN & Flutter",
     yearsOfExperience: 2,
     skills: [
@@ -32,12 +45,30 @@ const team_data: TTeam[] = [
     ],
     wowDelay: ".3s",
 
+=======
+    socialIcon: [
+      {
+        id: 1,
+        icon: "fa-brands fa-facebook-f",
+        url: "https://www.facebook.com/",
+      },
+      { id: 2, icon: "fa-brands fa-twitter", url: "https://twitter.com/" },
+      {
+        id: 3,
+        icon: "fa-brands fa-linkedin",
+        url: "https://www.linkedin.com/",
+      },
+      { id: 4, icon: "fa-brands fa-youtube", url: "https://www.youtube.com/" },
+    ],
+    wowDelay: ".3s",
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
   },
   {
     id: 2,
     image: ShagorAli,
     authorName: "Mahbub Hasan",
     desination: "Founder & CTO",
+<<<<<<< HEAD
     expart:"Fontend",
     yearsOfExperience: 2,
     skills: [
@@ -51,6 +82,20 @@ const team_data: TTeam[] = [
       { id: 1, icon: "fa-brands fa-facebook-f", url: "https://www.facebook.com/" },
       { id: 2, icon: "fa-brands fa-twitter", url: "https://twitter.com/" },
       { id: 3, icon: "fa-brands fa-linkedin", url: "https://www.linkedin.com/" },
+=======
+    socialIcon: [
+      {
+        id: 1,
+        icon: "fa-brands fa-facebook-f",
+        url: "https://www.facebook.com/",
+      },
+      { id: 2, icon: "fa-brands fa-twitter", url: "https://twitter.com/" },
+      {
+        id: 3,
+        icon: "fa-brands fa-linkedin",
+        url: "https://www.linkedin.com/",
+      },
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
       { id: 4, icon: "fa-brands fa-youtube", url: "https://www.youtube.com/" },
     ],
     wowDelay: ".7s",
@@ -60,6 +105,7 @@ const team_data: TTeam[] = [
     image: TanzilMia,
     authorName: "Istiak Ahmed",
     desination: "Co-Founder & Lead App Developer",
+<<<<<<< HEAD
     expart:"Mobile Application",
     yearsOfExperience: 2,
     skills: [
@@ -73,6 +119,20 @@ const team_data: TTeam[] = [
       { id: 1, icon: "fa-brands fa-facebook-f", url: "https://www.facebook.com/" },
       { id: 2, icon: "fa-brands fa-twitter", url: "https://twitter.com/" },
       { id: 3, icon: "fa-brands fa-linkedin", url: "https://www.linkedin.com/" },
+=======
+    socialIcon: [
+      {
+        id: 1,
+        icon: "fa-brands fa-facebook-f",
+        url: "https://www.facebook.com/",
+      },
+      { id: 2, icon: "fa-brands fa-twitter", url: "https://twitter.com/" },
+      {
+        id: 3,
+        icon: "fa-brands fa-linkedin",
+        url: "https://www.linkedin.com/",
+      },
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
       { id: 4, icon: "fa-brands fa-youtube", url: "https://www.youtube.com/" },
     ],
     wowDelay: ".5s",
@@ -82,6 +142,7 @@ const team_data: TTeam[] = [
     image: ShagorAli,
     authorName: "Md Sagar Ali",
     desination: "Co-Founder & Lead Software Developer",
+<<<<<<< HEAD
     expart:"MERN & Flutter",
     yearsOfExperience: 2,
     skills: [
@@ -95,15 +156,34 @@ const team_data: TTeam[] = [
       { id: 1, icon: "fa-brands fa-facebook-f", url: "https://www.facebook.com/" },
       { id: 2, icon: "fa-brands fa-twitter", url: "https://twitter.com/" },
       { id: 3, icon: "fa-brands fa-linkedin", url: "https://www.linkedin.com/" },
+=======
+    socialIcon: [
+      {
+        id: 1,
+        icon: "fa-brands fa-facebook-f",
+        url: "https://www.facebook.com/",
+      },
+      { id: 2, icon: "fa-brands fa-twitter", url: "https://twitter.com/" },
+      {
+        id: 3,
+        icon: "fa-brands fa-linkedin",
+        url: "https://www.linkedin.com/",
+      },
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
       { id: 4, icon: "fa-brands fa-youtube", url: "https://www.youtube.com/" },
     ],
     wowDelay: ".3s",
   },
+<<<<<<< HEAD
+=======
+
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
   {
     id: 5,
     image: TanzilMia,
     authorName: "Md. Tanver Ahmed Siyam",
     desination: "UI/UX Designer",
+<<<<<<< HEAD
     expart:"UI/UX",
     yearsOfExperience: 2,
     skills: [
@@ -117,6 +197,20 @@ const team_data: TTeam[] = [
       { id: 1, icon: "fa-brands fa-facebook-f", url: "https://www.facebook.com/" },
       { id: 2, icon: "fa-brands fa-twitter", url: "https://twitter.com/" },
       { id: 3, icon: "fa-brands fa-linkedin", url: "https://www.linkedin.com/" },
+=======
+    socialIcon: [
+      {
+        id: 1,
+        icon: "fa-brands fa-facebook-f",
+        url: "https://www.facebook.com/",
+      },
+      { id: 2, icon: "fa-brands fa-twitter", url: "https://twitter.com/" },
+      {
+        id: 3,
+        icon: "fa-brands fa-linkedin",
+        url: "https://www.linkedin.com/",
+      },
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
       { id: 4, icon: "fa-brands fa-youtube", url: "https://www.youtube.com/" },
     ],
     wowDelay: ".5s",

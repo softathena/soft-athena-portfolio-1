@@ -1,6 +1,10 @@
 import React from 'react';
 import BreadcrumbOne from '../common/Breadcrumb/BreadcrumbOne';
+<<<<<<< HEAD
 import breadcrumbBg from '../../../public/assets/imgs/breadcrumb/breadcrumb-bg-06.png';
+=======
+import breadcrumbBg from '../../../public/assets/imgs/breadcrumb/breadcrumb-bg-02.png';
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 import Link from 'next/link';
 import services_data from '@/data/services-data';
 import PortfolioCta from '../home/PortfolioCta';

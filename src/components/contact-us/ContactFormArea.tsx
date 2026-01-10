@@ -6,7 +6,11 @@ import ContactForm from '@/form/contact-form';
 const ContactFormArea = () => {
     return (
         <>
+<<<<<<< HEAD
             <div className="bd-contact__area section-space p-relative">
+=======
+         <div className="bd-contact__area section-space p-relative">
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
                 <div className="contact__bg include-bg" style={{ backgroundImage: `url(${ContactBg.src})` }}></div>
                 <div className="container">
                     <div className="row g-5">

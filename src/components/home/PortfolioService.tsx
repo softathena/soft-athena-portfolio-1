@@ -18,9 +18,15 @@ const PortfolioService = () => {
                   Expert Digital Solutions
                 </h2>
                 <p className="section__paragraph is-br-none">
+<<<<<<< HEAD
                   Services are professional offerings provided by businesses to
                   meet specific needs or solve problems for their customers.
                   Services can range from your budject.
+=======
+                  At Soft Athena, we deliver tailored solutions in web
+                  development, mobile apps, UI/UX design, and product deployment
+                  to empower businesses and drive growth.
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
                 </p>
               </div>
             </div>

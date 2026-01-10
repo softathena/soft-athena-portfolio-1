@@ -6,6 +6,10 @@ import useScrollDirection from '@/hooks/sticky-header';
 import Link from 'next/link';
 import OffcanvasArea from '@/components/common/OffcanvasArea';
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 const HeaderMain = () => {
     const isSticky = useScrollDirection(null);
     const [isOpenInfoSidebar, setIsOpenInfoSidebar] = useState(false)
@@ -45,9 +49,13 @@ const HeaderMain = () => {
                                                     <li><Link href="/works">Works</Link>
                                                     </li>
                                                     <li>
+<<<<<<< HEAD
                                                         <Link href="/teams">Teams</Link>
                                                     </li>
                                                     <li><Link href="/blog">Blogs</Link>
+=======
+                                                        <Link href="/blog">Blog</Link>
+>>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
                                                     </li>
                                                     <li><Link href="/contact">Contact</Link>
                                                     </li>
