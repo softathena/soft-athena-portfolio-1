@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 import { niceSelectType } from "@/interFace/type";
-=======
-interface niceSelectType {
-  id: number;
-  option: string;
-}
->>>>>>> b670095fad2fed299bed38d9073f3af43e8bda4d
 
 export const categoryData: niceSelectType[] = [
   {
