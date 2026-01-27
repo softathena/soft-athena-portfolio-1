@@ -141,7 +141,7 @@
                             position: absolute;
                             width: 110px;
                             height: 110px;
-                            background: rgba(66, 134, 244, 0.85);
+                            background: #2BB9A0;
                             border-radius: 50%;
                             top: -70px;
                             left: -30px;
@@ -152,7 +152,7 @@
                             position: absolute;
                             width: 110px;
                             height: 110px;
-                            background: rgba(100, 9, 216, 0.66);
+                            background: #1E8C78;
                             border-radius: 50%;
                             top: -40px;
                             left: -70px;
@@ -163,7 +163,7 @@
                             position: absolute;
                             width: 110px;
                             height: 110px;
-                            background: rgba(100, 9, 216, 0.66);
+                            background: #1E8C78;
                             border-radius: 50%;
                             bottom: -70px;
                             right: -30px;
@@ -174,7 +174,7 @@
                             position: absolute;
                             width: 110px;
                             height: 110px;
-                            background: rgba(66, 134, 244, 0.85);
+                            background: #2bb99f;
                             border-radius: 50%;
                             bottom: -40px;
                             right: -70px;
@@ -450,7 +450,9 @@
 // counter
 .counter {
     &__wrap {
-        background: linear-gradient(88deg, #4286F4 -21.01%, #6409D8 73%);
+        // background: linear-gradient(88deg, #4286F4 -21.01%, #6409D8 73%);
+        background: linear-gradient(120deg, rgba(43, 185, 160, 0.71) 0%, rgba(30, 140, 120, 0.00) 100%);
+
         display: inline-block;
         padding: 37px 35px;
         text-align: center;

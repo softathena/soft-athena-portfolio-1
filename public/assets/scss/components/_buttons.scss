@@ -181,7 +181,15 @@
   }
 
   &.is-bg-gradient {
-    background: linear-gradient(90deg, #4286F4 -16.62%, #6409D8 99.67%);
+    background:
+      linear-gradient(180deg,
+        rgba(43, 185, 160, 0.71) 0%,
+        rgba(43, 185, 160, 0) 100%),
+      linear-gradient(90deg,
+        #2BB9A0 -16.62%,
+        #1E8C78 99.67%);
+
+
     background-position: 100% 100%;
     background-size: 150% 100%;
 
