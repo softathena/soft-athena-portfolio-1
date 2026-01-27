@@ -76,7 +76,7 @@ const ContactFormArea = () => {
                               target="_blank"
                               href="https://www.google.com/maps"
                             >
-                              Mirpur, Dhaka, Bangladesh
+                              Dhaka, Bangladesh
                             </Link>
                           </h6>
                         </div>

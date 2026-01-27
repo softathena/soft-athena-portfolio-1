@@ -2,18 +2,18 @@ import { TService } from "@/interFace/type";
 
 const services_data: TService[] = [
   {
-    id: 1,
-    wowDelay: ".3s",
-    icon: "icon-application",
-    title: "Mobile Application",
-    desc: "Develop mobile apps for iOS and Android that are intuitive, feature-rich, and designed to boost user engagement and meet your business goals.",
-  },
-  {
     id: 2,
-    wowDelay: ".5s",
+    wowDelay: ".3s",
     icon: "icon-design",
     title: "Web Development",
     desc: "Build responsive, high-performance websites tailored to your brand, ensuring a seamless experience for your users and effective audience engagement.",
+  },
+  {
+    id: 1,
+    wowDelay: ".5s",
+    icon: "icon-application",
+    title: "Mobile Application",
+    desc: "Develop mobile apps for iOS and Android that are intuitive, feature-rich, and designed to boost user engagement and meet your business goals.",
   },
   {
     id: 3,
