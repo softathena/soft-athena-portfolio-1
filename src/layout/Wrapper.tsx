@@ -8,7 +8,7 @@ const Wrapper = ({ children }: { children: React.ReactNode }) => {
   useEffect(() => {
     const loadingTimeout = setTimeout(() => {
       setIsLoading(false);
-    }, 4000);
+    }, 1000);
 
     return () => clearTimeout(loadingTimeout);
   }, []);

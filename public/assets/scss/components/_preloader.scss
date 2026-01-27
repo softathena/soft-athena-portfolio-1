@@ -33,18 +33,23 @@
 	-webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
 	animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
 }
+
 .sk-three-bounce.is-brick-red.sk-three-bounce .sk-child {
 	background-color: var(--bd-theme-2);
 }
+
 .sk-three-bounce.is-mainly-blue.sk-three-bounce .sk-child {
 	background-color: var(--bd-theme-3);
 }
+
 .sk-three-bounce.is-orange.sk-three-bounce .sk-child {
 	background-color: var(--bd-theme-4);
 }
+
 .sk-three-bounce.is-purple.sk-three-bounce .sk-child {
 	background-color: var(--bd-theme-5);
 }
+
 .sk-three-bounce .sk-bounce1 {
 	-webkit-animation-delay: -0.32s;
 	animation-delay: -0.32s;
