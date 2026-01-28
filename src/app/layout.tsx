@@ -1,4 +1,14 @@
 import "./globals.css";
+import "bootstrap/dist/css/bootstrap.css";
+import "react-modal-video/css/modal-video.min.css";
+import "react-photo-view/dist/react-photo-view.css";
+import "react-toastify/dist/ReactToastify.css";
+import "../../public/assets/css/vendor/animate.min.css";
+import "../../public/assets/css/vendor/icomoon.css";
+import "../../public/assets/css/vendor/spacing.css";
+import "../../public/assets/css/vendor/fontawesome-pro.css";
+import "../../public/assets/css/vendor/hover-reveal.css";
+import "../../public/assets/css/vendor/nice-select.css";
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
