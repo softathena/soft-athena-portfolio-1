@@ -1,4 +1,4 @@
-import TanzilMia from "../../public/assets/imgs/team/team-05.png";
+import TanzilMia from "../../public/assets/imgs/team/tanzil.jpg";
 import ShagorAli from "../../public/assets/imgs/team/team-06.png";
 // skill image
 import counterImgOne from "../../public/assets/imgs/skill/01.png";
