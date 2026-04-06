@@ -1,4 +1,5 @@
 import TanzilMia from "../../public/assets/imgs/team/tanzil.jpg";
+import Siyam from "../../public/assets/imgs/team/siyam.jpeg";
 import ShagorAli from "../../public/assets/imgs/team/team-06.png";
 // skill image
 import counterImgOne from "../../public/assets/imgs/skill/01.png";
@@ -69,7 +70,7 @@ const team_data: TTeam[] = [
 
   {
     id: 2,
-    image: ShagorAli,
+    image: Siyam,
     authorName: "Mahbub Hasan",
     desination: "Founder & CEO",
     expart: "Frontend & System Design",
@@ -128,7 +129,7 @@ const team_data: TTeam[] = [
 
   {
     id: 4,
-    image: ShagorAli,
+    image: TanzilMia,
     authorName: "Parvez Hossain",
     desination: "Co-Founder & Lead Software Developer",
     expart: "MERN Stack",
@@ -187,11 +188,11 @@ const team_data: TTeam[] = [
 
   {
     id: 5,
-    image: TanzilMia,
+    image: Siyam,
     authorName: "Md. Tanver Ahmed Siyam",
     desination: "Co-Founder & UI/UX Designer",
     expart: "UI/UX",
-    yearsOfExperience: 2,
+    yearsOfExperience: 1,
     skills: [
       {
         id: 1,
@@ -245,18 +246,18 @@ const team_data: TTeam[] = [
   },
 
   {
-    id: 3,
+    id: 5,
     image: TanzilMia,
-    authorName: "Istiak Ahmed",
-    desination: "Lead App Developer",
-    expart: "Mobile Application",
+    authorName: "Md Tanzil Mia",
+    desination: "Founder & CTO",
+    expart: "MERN & Flutter",
     yearsOfExperience: 2,
     skills: [
       {
         id: 1,
         cunterNum: 88,
         image: counterImgOne,
-        skillName: "Mobile Development",
+        skillName: "Figma",
         bgColor: "white-bg",
         wowDelay: ".3s",
       },
@@ -264,7 +265,7 @@ const team_data: TTeam[] = [
         id: 2,
         cunterNum: 98,
         image: counterImgTwo,
-        skillName: "Flutter",
+        skillName: "Vision",
         bgColor: "pink-bg",
         wowDelay: ".5s",
       },
@@ -272,7 +273,7 @@ const team_data: TTeam[] = [
         id: 3,
         cunterNum: 78,
         image: counterImgThree,
-        skillName: "Dart",
+        skillName: "Sketch",
         bgColor: "white-bg",
         wowDelay: ".7s",
       },
@@ -280,12 +281,12 @@ const team_data: TTeam[] = [
         id: 4,
         cunterNum: 68,
         image: counterImgFour,
-        skillName: "React Native",
+        skillName: "Cloud",
         bgColor: "red-bg",
         wowDelay: ".9s",
       },
     ],
-    bio: "Istiak Ahmed leads mobile application development, specializing in Flutter and React Native for scalable mobile solutions.",
+    bio: "Md Tanzil Mia is the technical mind behind the company, leading architecture and engineering decisions with strong expertise in MERN and Flutter technologies.",
     socialIcon: [
       {
         id: 1,
@@ -300,7 +301,7 @@ const team_data: TTeam[] = [
       },
       { id: 4, icon: "fa-brands fa-youtube", url: "https://www.youtube.com/" },
     ],
-    wowDelay: ".5s",
+    wowDelay: ".3s",
   },
 ];
 

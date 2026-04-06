@@ -72,14 +72,17 @@ const TeamSection = () => {
                         className="team__wrap team__item text-center style-five  wow fadeInUp"
                         data-wow-delay={item.wowDelay}
                       >
-                        <div className="team__thumb bg-solid">
-                          <Link href={`/teams/team-details/${item.id}`}>
+                        <div className="team__thumb team__thumb--cover bg-solid">
+                          <Link
+                            href={`/teams/team-details/${item.id}`}
+                            className="team__thumb-img-link"
+                          >
                             <Image
                               src={item.image}
                               loader={imageLoader}
-                              width={300}
-                              height={372}
-                              alt="image not found"
+                              fill
+                              sizes="(max-width: 575px) 100vw, (max-width: 991px) 50vw, 33vw"
+                              alt={`${item.authorName} — ${item.desination}`}
                             />
                           </Link>
                           <div className="team__social">
