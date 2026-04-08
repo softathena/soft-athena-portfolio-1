@@ -1,5 +1,6 @@
 import TanzilMia from "../../public/assets/imgs/team/tanzil.jpg";
 import Siyam from "../../public/assets/imgs/team/siyam.jpeg";
+import Mahbub from "../../public/assets/imgs/team/mahbub.jpeg";
 import ShagorAli from "../../public/assets/imgs/team/team-06.png";
 // skill image
 import counterImgOne from "../../public/assets/imgs/skill/01.png";
@@ -70,7 +71,7 @@ const team_data: TTeam[] = [
 
   {
     id: 2,
-    image: Siyam,
+    image: Mahbub,
     authorName: "Mahbub Hasan",
     desination: "Founder & CEO",
     expart: "Frontend & System Design",
